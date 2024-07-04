@@ -347,3 +347,34 @@ img{
 .footer li{
   line-height: 2.4;
 }
+@media (max-width: 576px) {
+  .showcase-content {
+    margin: 0 5%;
+  }
+
+  .showcase-content h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .showcase-content h3 {
+    font-size: 14px;
+  }
+
+  .showcase-content p {
+    font-size: 10px;
+  }
+
+  .input input {
+    width: 100%;
+  }
+
+  .input button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .footer .footer-cols {
+    grid-template-columns: 1fr;
+  }
+}
